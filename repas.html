@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+<link rel="stylesheet" href="style.css">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Prata&family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+	
+	
+	<link rel="icon" type="image/png" href="logo2.png">
+	<title>Philip Célebest</title>
+</head>
+
+<body>
+<div class="container-xl">
+		<div id="head" class="row py-2">
+			<img class="float-left imglogo" alt="Responsive image" src="logo2.png" width="130vw" height="100vh" >
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav navigation">
+					<li><a class="nav-item nav-link" href="index.html"><navtype>Accueil</navtype></a></li>
+					<li><a class="nav-item nav-link" href="petitdej.html"><navtype>Petit-déjeuner</navtype></a></li>
+					<li><a class="nav-item nav-link active" href="repas.html">Repas<span class="sr-only">(current)</span></a></li>
+					<li><a class="nav-item nav-link" href="desserts.html"><navtype>Desserts</navtype></a></li>
+					<li><a class="nav-item nav-link" href="autres.html"><navtype>Autres</navtype></a></li>
+				</div>
+				</div>
+			</nav>
+		</div>	
+	
+		<div class="row justify-content-center">
+			<div class="col-8 ideerecetterepas">
+				<br></br>
+				<txtidee>Pas d'idée de recette ? Je suis là pour toi !</txtidee>
+				<br></br>
+				<button type="button" class="btn btn-dark btn-primary" data-toggle="button" aria-pressed="false" onclick="toggle_text('span_text')" autocomplete="off">
+						Choisir pour moi !
+				</button>
+				
+				<br></br>
+				<span id="span_text" style="display:none;">
+					<balise2><script src="scripts/mainsale.js"></script></balise2>
+					<div id="zonetext">Si tu veux avoir une nouvelle proposition de recette, actualise la page et recommence !</div>
+				</span>
+				
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-3 col-sm-11 card carterecette">
+				<img class="card-img-top" src="crique.jpg" alt="Card image" style="height:100%">
+				<div class="card-body">
+				  <h4 class="card-title">Crique</h4>
+				  <span class="badge badge-success">Végé</span>
+				  <p class="card-text">Une délicieuse recette Ardéchoise à base de pommes de terre.</p>
+				  <a href="crique.html" class="btn btn-primary stretched-link">Voir la recette</a>
+				</div>
+			</div>
+
+			<div class="col-md-3 col-sm-11 card carterecette">
+				<img class="card-img-top" src="avoine2.jpg" alt="Card image" style="height:100%">
+				<div class="card-body">
+				  <h4 class="card-title">Galettes de flocons d'avoine</h4>
+				  <span class="badge badge-success">Végé</span>
+				  <p class="card-text">De fine galettes à bases de flocons d'avoine, rapide à préparer !</p>
+				  <a href="galettesavoine.html" class="btn btn-primary stretched-link">Voir la recette</a>
+				</div>
+			</div>
+
+			<div class="col-md-3 col-sm-11 card carterecette">
+				<img class="card-img-top" src="sarrasin.jpeg" alt="Card image" style="height:100%">
+				<div class="card-body">
+				  <h4 class="card-title">Galettes de sarrasin</h4>
+				  <span class="badge badge-success">Végé</span>
+				  <p class="card-text">Des galettes de sarrasin légères pour la saison estivale.</p>
+				  <a href="sarrasin.html" class="btn btn-primary stretched-link">Voir la recette</a>
+				</div>
+			</div>
+	
+
+		<div class="row">
+			<div class="col-md-3 col-sm-11 card carterecette">
+				<img class="card-img-top" src="gratindepates.jpg" alt="Card image" style="height:100%">
+				<div class="card-body">
+				  <h4 class="card-title">Gratin de pâtes</h4>
+				  <span class="badge badge-success">Végé</span>
+				  <p class="card-text">Ce grâtin est parfait pour changer des traditionnelles pâtes.</p>
+				  <a href="#" class="btn btn-primary stretched-link">Voir la recette</a>
+				</div>
+			</div>
+		
+			<div class="col-md-3 col-sm-11 card carterecette">
+				<img class="card-img-top" src="burger.jpg" alt="Card image" style="height:100%">
+				<div class="card-body">
+		 			  <h4 class="card-title">Hamburger maison</h4>
+					  <p class="card-text">Envie de fast food à la maison ? Cuisine ton propre burger !</p>
+					  <a href="#" class="btn btn-primary stretched-link">Voir la recette</a>
+				</div>
+			</div>
+		
+			<div class="col-md-3 col-sm-11 card carterecette">
+				<img class="card-img-top" src="lasagneaub.JPG" alt="Card image" style="height:100%">
+				<div class="card-body">
+				  <h4 class="card-title">Lasagnes à la riste d'aubergine</h4>
+				  <span class="badge badge-success">Végé</span>
+				  <p class="card-text">Rapide et facile, cette recette est idéale pour changer des lasagnes habituelles.</p>
+				  <a href="#" class="btn btn-primary stretched-link">Voir la recette</a>
+				</div>
+			
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-3 col-sm-11 card carterecette">
+				<img class="card-img-top" src="pho.JPG" alt="Card image" style="height:100% ">
+				<div class="card-body">
+				  <h4 class="card-title">Phô</h4>
+				  <p class="card-text"> Déliceuse soupe traditionnelle vietnamienne.</p>
+				  <a href="#" class="btn btn-primary stretched-link">Voir la recette</a>
+				</div>
+			</div>
+		
+			<div class="col-md-3 col-sm-11 card carterecette">
+				<img class="card-img-top" src="pdtepicee.jpg" alt="Card image" style="height:100%">
+				<div class="card-body">
+				   <h4 class="card-title">Pommes de terre vapeur épicées</h4>
+				   <span class="badge badge-danger">Végan</span>
+				  <p class="card-text">Un repas tout en simplicité mais tout de même assez relevé.</p>
+				  <a href="#" class="btn btn-primary stretched-link">Voir la recette</a>
+				</div>
+			</div>
+			
+			<div class="col-md-3 col-sm-11 card carterecette">
+				<img class="card-img-top" src="pdtfromageblanc.jpg" alt="Card image" style="height:100%">
+				<div class="card-body">
+				  <h4 class="card-title">Pomme de terre et fromage blanc</h4>
+				  <span class="badge badge-success">Végé</span>
+				  <p class="card-text">Ce plat est parfait pour les soirs d'hiver.</p>
+				  <a href="#" class="btn btn-primary stretched-link">Voir la recette</a>
+				</div>
+			
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-3 col-sm-11 card carterecette">
+				<img class="card-img-top" src="pouletcurry.jpg" alt="Card image" style="height:100% ">
+				<div class="card-body">
+				  <h4 class="card-title">Poulet au curry</h4>
+				  <p class="card-text">Un des meilleurs accompagnements pour le riz !</p>
+				  <a href="#" class="btn btn-primary stretched-link">Voir la recette</a>
+				</div>
+			</div>
+			
+			<div class="col-md-3 col-sm-11 card carterecette">
+				<img class="card-img-top" src="quinoacurry.jpg" alt="Card image" style="height:100%">
+				<div class="card-body">
+				   <h4 class="card-title">Quinoa et carottes rapées épicées</h4>
+				   <span class="badge badge-danger">Végan</span>
+				  <p class="card-text">Un repas sain et équilibré qui change de l'ordinnaire !</p>
+				  <a href="#" class="btn btn-primary stretched-link">Voir la recette</a>
+				</div>
+			</div>
+				
+			<div class="col-md-3 col-sm-11 card carterecette">
+				<img class="card-img-top" src="rizpoivron.jpg" alt="Card image" style="height:100%">
+				<div class="card-body">
+				  <h4 class="card-title">Riz au poivron et sauce soja</h4>
+				  <span class="badge badge-danger">Végan</span>
+				  <p class="card-text">Très simple à faire, cette recette est un délice</p>
+				  <a href="#" class="btn btn-primary stretched-link">Voir la recette</a>
+				</div>
+			
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-3 col-sm-11 card carterecette">
+				<img class="card-img-top" src="saladeviet.jpg" alt="Card image" style="height:100% ">
+				<div class="card-body">
+				  <h4 class="card-title">Salade Vietnamienne</h4>
+				  <p class="card-text">Une salade légère tout droit venue du Vietnam.</p>
+				  <a href="#" class="btn btn-primary stretched-link">Voir la recette</a>
+				</div>
+			</div>
+				
+			<div class="col-md-3 col-sm-11 card carterecette">
+				<img class="card-img-top" src="soupechinoise.jpg" alt="Card image" style="height:100%">
+				<div class="card-body">
+				   <h4 class="card-title">Soupe chinoise</h4>
+				   <span class="badge badge-success">Végé</span>
+				  <p class="card-text">Idéale le soir pour les petites faims.</p>
+				  <a href="#" class="btn btn-primary stretched-link">Voir la recette</a>
+				</div>
+			</div>
+					
+			<div class="col-md-3 col-sm-11 card carterecette">
+				<img class="card-img-top" src="soupepate.jpeg" alt="Card image" style="height:100%">
+				<div class="card-body">
+				  <h4 class="card-title">Soupe de pâtes, tomates et champignons</h4>
+				  <span class="badge badge-success">Végé</span>
+				  <p class="card-text">Un parfait compromis entre soupe légère et pâtes.</p>
+				  <a href="#" class="btn btn-primary stretched-link">Voir la recette</a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<div class="row contact">
+			<div class="col-12 d-flex justify-content-center align-items-center">
+		<p>Où me retrouver sur les réseaux sociaux ?</p>
+			</div>
+	</div>
+	<div class="row contact2 d-flex justify-content-center align-items-center">
+		<div class="col-2">
+			<a href="https://www.facebook.com/alexia.ph.10/" target="_blank" class="zoom"><img src="https://img.icons8.com/ios/50/000000/facebook.png"/></a>
+		</div>
+		<div class="col-2">
+			<a href="https://www.instagram.com/alexiaphilip/" target="_blank" class="zoom"><img src="https://img.icons8.com/ios/50/000000/instagram-new.png"/></a>
+		</div>
+		<div class="col-2">
+			<a href="https://www.snapchat.com/add/alexia070804" target="_blank" class="zoom"><img src="https://img.icons8.com/ios/50/000000/snapchat.png"/></a>
+		</div>
+		<div class="col-1">
+			<a href="mailto:alexiaphilip@gmail.com" target="_blank" class="zoom"><img src="https://img.icons8.com/pastel-glyph/64/000000/open-envelope--v2.png" width="60%"></a>
+		</div>
+	</div>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>
