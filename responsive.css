@@ -4,9 +4,6 @@
         font-size:1.2rem;
     }
 
-    col-9-xl{
-        width: 30vw;
-    }
 
     .texteintro h5{
         font-size: 1rem;
@@ -18,8 +15,57 @@
         font-size: 1rem;
         margin-left: -1rem;
     }
-}
+    .col{
+        margin-top:10%;
+        margin-bottom: 10%;
+    }
 
+    .intro1{
+        height:50vh;
+        background-image: none;
+    }
+
+    .imglogo{
+        display: none;
+    }
+
+    .navigation{
+        margin-left: 5rem;
+    }
+
+    .navbar{
+        margin-left: 10%;
+    }
+
+    .tarte{
+        margin-top: 10%;
+    }
+
+    .crique{
+        margin-left:0%;
+    }
+
+    .imgcrique{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .divrecetteintro p{
+        font-size: 200%;
+    }
+
+    .divrecetteintro h4{
+        font-size: 170%;
+    }
+
+    .contact p{
+        font-size: 70%;
+        text-align :center;
+    }
+     
+    .ideerecetterepas{
+        height:120%;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -29,12 +75,23 @@
         width:80%
     }
 
+    .col{
+        margin-top:10%;
+        margin-bottom: 10%;
+    }
+
+
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
     .intro1{
-        background-image: none;
+        /*background-image: none;*/
+        height:70vh;
+    }
+
+    .imglogo2{
+        display:none;
     }
 
 }
