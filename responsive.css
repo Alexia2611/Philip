@@ -58,6 +58,9 @@
         font-size: 170%;
     }
 
+    .contact{
+        margin-top: 10%;
+    }
     .contact p{
         font-size: 70%;
         text-align :center;
@@ -66,6 +69,26 @@
     .ideerecetterepas{
         height:120%;
     }
+
+    .ingredients{
+        height: 50vh;
+        width: 80vw;
+        font-size:100%;
+        margin-left:5%;
+        margin-right:5%;
+    }
+    
+    .preparation{
+        height: 90vh;
+        width: 80vw;
+        font-size:100%;
+        margin-left:5%;
+        margin-right:5%;
+    }
+    .titrerecette{
+        height:30vh;
+    }
+   
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -79,8 +102,6 @@
         margin-top:10%;
         margin-bottom: 10%;
     }
-
-
 }
 
 /* Medium devices (tablets, 768px and up)*/
