@@ -298,7 +298,7 @@ commentaire{
 }
 .ingredients{
 	width: 25vw;
-	height: 95vh;
+	height: 100vh;
 	background-color:#FCD5CE; 
 	margin-left: 7%;
 	border-radius:1em;
@@ -310,7 +310,7 @@ commentaire{
 
 .preparation{
 	width: 65vw;
-	height: 95vh;
+	height: 100vh;
 	background-color: #FCD5CE;
 	margin-left:18%;
 	border-radius:1em;
