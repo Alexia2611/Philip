@@ -76,6 +76,7 @@
         font-size:100%;
         margin-left:5%;
         margin-right:5%;
+        margin-bottom: 10%;
     }
     
     .preparation{
@@ -84,6 +85,7 @@
         font-size:100%;
         margin-left:5%;
         margin-right:5%;
+        margin-top: 10%;
     }
     .titrerecette{
         height:20vh;
@@ -99,6 +101,7 @@
         margin-right:5%;
         margin-top:10%;
         margin-bottom:10%;
+        width:80vw;
     }
    
 }
