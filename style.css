@@ -274,6 +274,10 @@ commentaire{
 	margin-left:5%;
 }
 
+.imagecarte{
+	margin-top:5%;
+}
+
 .titrerecette{
 	width:75vw;
 	height:15vh;
@@ -281,6 +285,14 @@ commentaire{
 	font-family: 'Prata', serif;
 	font-size: 350%;
 	color:rgba(243,106,109,0.8);
+}
+
+.titrerecette ul{
+	border-style:solid;
+	border-color:rgba(249,219,189,0.8);
+	border-radius: 2rem;
+	margin-left:15%;
+	margin-right:15%;
 }
 .titrerecette p{
 	font-size:35%;

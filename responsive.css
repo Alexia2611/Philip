@@ -89,6 +89,17 @@
         height:20vh;
         font-size:250%;
     }
+
+    .titrerecette ul{
+        background-color: white;
+    }
+
+    .carterecette{
+        margin-left:5%;
+        margin-right:5%;
+        margin-top:10%;
+        margin-bottom:10%;
+    }
    
 }
 
