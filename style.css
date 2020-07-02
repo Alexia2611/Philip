@@ -36,6 +36,11 @@ h4{
 	font-family: 'Roboto', sans-serif;
 }
 
+li h3{
+	font-size:100%;
+	align-items: center;
+}
+
 h2{
 	font-family:'Roboto', sans-serif;
 	font-size:100%;
@@ -273,12 +278,11 @@ commentaire{
 	width:75vw;
 	height:15vh;
 	margin-top:3%;
-	margin-left:13%;
 	font-family: 'Prata', serif;
 	font-size: 350%;
 	color:rgba(243,106,109,0.8);
 }
-p_rec{
+.titrerecette p{
 	font-size:35%;
 }
 .ingredients{
