@@ -296,6 +296,7 @@ commentaire{
 .titrerecette p{
 	font-size:35%;
 }
+
 .ingredients{
 	width: 25vw;
 	height: 100vh;
@@ -307,7 +308,6 @@ commentaire{
 	text-align: left;
 }
 
-
 .preparation{
 	width: 65vw;
 	height: 100vh;
@@ -317,6 +317,16 @@ commentaire{
 	font-family: 'Forum', cursive;
 	font-size:130%;
 	text-align: left;
+}
+
+.ingredients a{
+	color:white;
+	text-decoration: none;
+}
+
+.ingredients a:hover{
+	color:#ED8494;
+	text-decoration: none;
 }
 
 .zoomm img{
